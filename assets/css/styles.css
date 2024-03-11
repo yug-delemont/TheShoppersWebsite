@@ -1,0 +1,472 @@
+******************** Default-CSS *********************/ input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-moz-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-ms-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-o-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"],
+a[href],
+input[type='submit'],
+input[type='button'],
+input[type='image'],
+label[for],
+select,
+button,
+.pointer {
+    cursor: pointer;
+}
+
+
+
+
+a {
+    outline: none;
+    color: #555;
+}
+
+a:hover {
+    color: #000;
+}
+
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+
+body .clearfix {
+    height: auto;
+}
+
+* {
+    outline: none !important;
+}
+
+
+
+
+
+
+
+div select {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div select option {
+    font-size: 13px;
+    color: #333;
+    padding: 2px 5px;
+}
+
+
+
+body p:empty {
+    margin: 0;
+    line-height: 0;
+}
+
+
+
+
+
+
+
+/*********************  scroll Hide  *********************/
+
+html.show-menu {
+    overflow: hidden;
+}
+
+html.show-menu body {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+/*********************  Default-CSS close  *********************/
+
+
+/*********************  Gapping  *********************/
+
+section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+/*********************  Gapping close  *********************/
+
+
+/*********************  Default-CSS  *********************/
+
+
+/*********************  Common-Css  *******************/
+
+.clr:after,
+ul:after,
+.clearfix:after,
+li:after,
+.grve-container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+
+/*********************  Common-Css Close  *******************/
+
+
+/*********************  Header  *******************/
+div#navbarNav {
+    justify-content: center;
+}
+
+/* ul.navbar-nav {
+    margin: auto;
+} */
+
+section.heresecrion {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ul.navbar-nav a {
+    color: black;
+} */
+
+header {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: all 0.5s;
+    z-index: 999;
+}
+
+html:hover .cursor {
+    opacity: 1;
+}
+
+a {
+    transition: border 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* ul.navbar-nav a {
+    margin: 0 15px;
+} */
+
+nav.navbar.navbar-expand-lg {
+    transition: all 0.5s;
+}
+
+header.fixed .navbar {
+    box-shadow: 0px 5px 50px #0000000d;
+    padding: 15px 0px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.navbar.navbar-expand-lg {
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+    background: #fff;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.border-input {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 62px;
+    border: 1px solid var(--Primary-Purple, #662482);
+    background: #FFF;
+    padding: 5px;
+    align-items: center;
+    height: 56px;
+}
+
+.border-input>input {
+    background: transparent;
+}
+
+span.location-span {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--Shade-01, #FEF2FF);
+}
+
+button.search-btn {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    background: var(--Primary-Purple, #662482);
+}
+
+input::placeholder {
+    color: var(--Shade-06, #897E8F);
+    font-family: "Product Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-link-main {
+    background: #662482;
+}
+
+.header-links {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+a.nav-link {
+    color: var(--Shade-04, #D1C5D8);
+    font-family: "Product Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+    padding: 0 8px;
+}
+
+a.nav-link.active {
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.header-links-left {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+a.nav-link.active {
+    position: relative;
+}
+
+a.nav-link:hover {
+    color: #fff;
+}
+
+a.nav-link.active::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--Primary-White, #FFF);
+    height: 2px;
+    width: 100%;
+    bottom: -16px;
+    left: 0;
+}
+
+button.white-btn {
+    display: flex;
+    /* height: 56px; */
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    background: #FFF;
+    color: var(--Primary-Purple, #662482);
+    font-family: "Product Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+button.orange-btn {
+    display: flex;
+    /* height: 56px; */
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    background: #FF9900;
+    color: var(--Primary-Purple, #FFF);
+    font-family: "Product Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-links-right {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/*********************  Header Close  *******************/
+
+
+
+
+/*********************  Home banner  *******************/
+
+
+/*********************  Home banner Close  *******************/
+
+
+/*********************  Content  *******************/
+
+
+/*********************  Content Close  *******************/
+
+
+/*********************  Footer  *******************/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/*********************  Footer Close  *******************/
+
+
+/*********************  Inner-Pages  *******************/
+
+
+/*********************  Inner-Pages Close  *******************/
+
+
+/*********************  Owl  *******************/
+
+
+/*********************  Owl Close  *******************/
+
+
+/*********************  Fancy-box  *******************/
+
+
+/*********************  Fancy-box Close  ******************/
+
+/* White Hover BTN */
+.white-button {
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.white-btn-txt {
+    z-index: 9;
+}
+
+.white-type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #FF9900;
+    border-radius: 62px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: 1;
+}
+
+.white-button:hover {
+    color: #FF9900;
+}
+
+.white-button.white-btn:hover {
+    color: #FFF;
+}
+
+.white-type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+/* Orange Hover BTN */
+.orange-button {
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.orange-btn-txt {
+    z-index: 9;
+}
+
+.orange-type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #FFF;
+    border-radius: 62px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: 1;
+}
+
+.orange-button:hover {
+    color: #FFF;
+}
+
+.orange-button.orange-btn:hover {
+    color: #FF9900;
+}
+
+.orange-type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}

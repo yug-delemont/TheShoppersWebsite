@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Shoppers Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+                screens: {
+                    sm: "640px",
+                    md: "768px",
+                    lg: "1024px",
+                    xl: "1280px",
+                    "2xl": "1536px",
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container mx-auto">
+                <div class="main-header">
+                    <a class="navbar-brand" href="index.php"><img src="./assets/images/svg/h_logo.svg" alt="logo" /></a>
+                    <button class="navbar-toggler hidden" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <div class="plate plate4" onclick="this.classList.toggle('active')">
+                                <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                                    <path class="line line1" d="M 50,35 H 30" />
+                                    <path class="line line2" d="M 50,35 H 70" />
+                                    <path class="line line3" d="M 50,50 H 30" />
+                                    <path class="line line4" d="M 50,50 H 70" />
+                                    <path class="line line5" d="M 50,65 H 30" />
+                                    <path class="line line6" d="M 50,65 H 70" />
+                                </svg>
+                                <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                                    <path class="line" d="M 34,32 L 66,68" />
+                                    <path class="line" d="M 66,32 L 34,68" />
+                                </svg>
+                            </div>
+                        </span>
+                    </button>
+                    <div class="navbar-collapse" id="navbarNav">
+                        <div class="btns">
+                            <div class="border-input">
+                                <input class="px-3" type="text" placeholder="Search Category or Company" />
+                            </div>
+                            <div class="border-input">
+                                <span class="location-span">
+                                    <img src="./assets/images/svg/location.svg" alt="" />
+                                </span>
+                                <input type="text" placeholder="Search Location" />
+                            </div>
+                            <button class="search-btn">
+                                <img src="./assets/images/svg/search.svg" alt="" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header-link-main">
+            <div class="container mx-auto">
+                <div class="header-links">
+                    <div class="header-links-left">
+                        <a href="./index.html" class="nav-link active">Home</a>
+                        <a href="./about.html" class="nav-link">About</a>
+                        <a href="./advertise-with-us.html" class="nav-link">Advertise With Us</a>
+                        <a href="./pricing.html" class="nav-link">Pricing</a>
+                        <a href="./contact-us.html" class="nav-link">Contact Us</a>
+                    </div>
+                    <div class="header-links-right">
+                        <button class="white-btn white-button white-type1">
+                            <span class="white-btn-txt">
+                                Discount Codes
+                            </span>
+                        </button>
+                        <button class="orange-btn orange-button orange-type1">
+                            <span class="orange-btn-txt">
+                                More Popular Categories
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+    </header>
+
+    <!-- Hero section -->
+    <section>
+        <div class="container mx-auto">
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <!-- Script -->
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>
