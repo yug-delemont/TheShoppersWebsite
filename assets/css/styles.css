@@ -300,7 +300,7 @@ a.nav-link.active::after {
     left: 0;
 }
 
-button.white-btn {
+a.white-btn {
     display: flex;
     /* height: 56px; */
     padding: 18px 24px;
@@ -314,9 +314,10 @@ button.white-btn {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: fit-content;
 }
 
-button.orange-btn {
+a.orange-btn {
     display: flex;
     /* height: 56px; */
     padding: 18px 24px;
@@ -330,6 +331,24 @@ button.orange-btn {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: fit-content;
+}
+
+a.purple-btn {
+    display: flex;
+    /* height: 56px; */
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    background: #662482;
+    color: var(--Primary-Purple, #FFF);
+    font-family: "Product Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: fit-content;
 }
 
 .header-links-right {
@@ -344,9 +363,124 @@ button.orange-btn {
 
 
 /*********************  Home banner  *******************/
+.hero-sec {
+    background: url('../images/svg/HeroSectionBg.svg') no-repeat;
+    background-size: cover;
+}
 
+h1.hero-head {
+    color: var(--Primary-White, #FFF);
+    font-family: "Product Sans";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110px;
+    letter-spacing: -2.7px;
+    padding-bottom: 32px;
+}
+
+section.hero-sec {
+    height: 160dvh;
+}
+
+.hero-main {
+    padding-top: 7rem;
+}
 
 /*********************  Home banner Close  *******************/
+
+/*********************  Shoppers  *******************/
+section.shoppers-sec {
+    padding-top: 0;
+}
+
+h2.shoppers-head {
+    font-family: "Product Sans";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    /* 129.63% */
+}
+
+p.shoppers-para {
+    color: var(--Shade-07, #625868);
+    font-family: "Product Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    margin-top: 18px;
+    margin-bottom: 32px;
+}
+
+/*********************  Shoppers Close  *******************/
+
+/*********************  Popular  *******************/
+section.popular-sec {
+    background: var(--Primary-Purple, #662482);
+}
+
+.popular-main {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+a.popular-card {
+    border-radius: 22px;
+    background: #FFF;
+
+    /* Box Shadow */
+    box-shadow: 0px 4px 20px 0px rgba(217, 214, 210, 0.19);
+    padding: 10px 10px 20px 10px;
+}
+
+h6.popular-card-head {
+    color: var(--Primary-Black, #120417);
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+section.popular-sec a.white-btn {
+    margin: auto;
+}
+
+/********************* Popular Close *******************/
+
+/*********************  Daily  *******************/
+.daily-main {
+    background: url('../images/svg/save_daily_bg.svg') no-repeat;
+    background-size: cover;
+}
+
+.daily-main {
+    padding: 30px;
+}
+
+.daily-left {
+    width: 100%;
+    border-right: 2px dashed #FFF;
+}
+
+.daily-left>img {
+    margin: auto;
+}
+
+.daily-main>div>div {
+    padding: 0 50px;
+}
+
+/*********************  Daily Close  *******************/
 
 
 /*********************  Content  *******************/
@@ -419,7 +553,7 @@ button.orange-btn {
 }
 
 .white-button:hover {
-    color: #FF9900;
+    color: #FFF;
 }
 
 .white-button.white-btn:hover {
@@ -459,7 +593,7 @@ button.orange-btn {
 }
 
 .orange-button:hover {
-    color: #FFF;
+    color: #FF9900;
 }
 
 .orange-button.orange-btn:hover {
@@ -467,6 +601,46 @@ button.orange-btn {
 }
 
 .orange-type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+/* Purple Btn */
+.purple-button {
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.purple-btn-txt {
+    z-index: 9;
+}
+
+.purple-type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #FF9900;
+    border-radius: 62px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: 1;
+}
+
+.purple-button:hover {
+    color: #FFF;
+}
+
+.purple-button.purple-btn:hover {
+    color: #FFF;
+}
+
+.purple-type1:hover::after {
     visibility: visible;
     transform: scale(100) translateX(2px);
 }
