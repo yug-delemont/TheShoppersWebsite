@@ -491,6 +491,52 @@ section.popular-sec a.white-btn {
 
 /*********************  Footer  *******************/
 
+footer {
+    background: url('../images/svg/footerbg.svg') no-repeat;
+    background-size: cover;
+    height: 906px;
+}
+
+.footer-main {
+    padding-top: 33rem;
+}
+
+.f-links {
+    border-top: 1px solid #4A205E;
+    border-bottom: 1px solid #4A205E;
+}
+
+.f-nav-link {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+p.copy-para {
+    color: var(--shade200, #E3F3EF);
+    font-family: "Product Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a.copy-link {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
 }
