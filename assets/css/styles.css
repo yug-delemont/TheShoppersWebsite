@@ -568,6 +568,123 @@ p.no-more-para {
 
 /*********************  About Close *******************/
 
+/*********************  Advertise *******************/
+.advertising-grid-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.advertising-grid-inner>div {
+    border-radius: 1.875rem;
+    background: var(--Primary-White, #FFF);
+    box-shadow: 0px 4px 30px 0px rgba(217, 214, 210, 0.28);
+}
+
+.advertise-flex {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.advertise-img>img {
+    margin-top: 110px;
+}
+
+h3.ad-info-head {
+    color: var(--Primary-Purple, #662482);
+    font-family: "Product Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+p.ad-info-para {
+    color: var(--Gray-6, #868E96);
+    font-family: "Product Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+    /* 137.5% */
+}
+
+p.if-you {
+    color: var(--Primary-Orange, #F90);
+    font-family: "Product Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/********************* Advertise Close *******************/
+
+/********************* Pricing *******************/
+.pricing-packages {
+    border-radius: 1.875rem;
+    background: var(--Primary-White, #FFF);
+    box-shadow: 0px 4px 30px 0px rgba(217, 214, 210, 0.28);
+    padding: 1.5rem;
+    width: 49%;
+}
+
+.dimensions {
+    border-top: 1px solid #868E96;
+}
+
+.packages-type {
+    border-radius: 0.625rem;
+    background: #FFF5E5;
+    display: flex;
+    width: -webkit-fit-content;
+    padding: 0.875rem;
+    color: var(--Primary-Orange, #F90);
+    font-family: "Product Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.package-price {
+    color: var(--Primary-Black, #120417);
+    font-family: "Product Sans";
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.package-para {
+    color: var(--Gray-6, #868E96);
+    font-family: "Product Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page1-list {
+    color: var(--Primary-Purple, #662482);
+    font-family: "Product Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.userful-info {
+    border-radius: 1.875rem;
+    background: var(--Primary-White, #FFF);
+    box-shadow: 0px 4px 30px 0px rgba(217, 214, 210, 0.28);
+}
+
+/********************* Pricing Close *******************/
+
 /*********************  Content  *******************/
 
 
