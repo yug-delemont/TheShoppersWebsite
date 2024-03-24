@@ -569,6 +569,12 @@ p.no-more-para {
 /*********************  About Close *******************/
 
 /*********************  Advertise *******************/
+.advertise-with-us-sec {
+    background: url('../images/svg/ad_purple_bg.svg') no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
 .advertising-grid-inner {
     display: flex;
     flex-direction: column;
@@ -583,8 +589,9 @@ p.no-more-para {
 
 .advertise-flex {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .advertise-img>img {
