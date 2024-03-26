@@ -1,0 +1,10 @@
+{
+  "categoryList": [
+    { "name": "Category List" },
+    { "data": ["Alloy Wheels", "Alloy Wheels"] }
+  ],
+  "componyList": [
+    { "name": "Company List" },
+    { "data": ["Street Smart Alloys Ltd", "Street Smart Alloys"] }
+  ]
+}
