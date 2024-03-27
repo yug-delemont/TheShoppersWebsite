@@ -1,7 +1,7 @@
 {
   "categoryList": [
     { "name": "Category List" },
-    { "data": ["Alloy Wheels", "Alloy Wheels"] }
+    { "keyword": ["Alloy Wheels", "Alloy Wheels"] }
   ],
   "componyList": [
     { "name": "Company List" },

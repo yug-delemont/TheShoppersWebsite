@@ -55,8 +55,19 @@
                     </button>
                     <div class="navbar-collapse" id="navbarNav">
                         <div class="btns">
-                            <div class="border-input">
-                                <input class="px-3" type="text" placeholder="Search Category or Company" />
+                            <div class="border-input search-input-main">
+                                <input id="searchCategory" class="px-3" type="text"
+                                    placeholder="Search Category or Company" />
+                                <div class="search-list">
+                                    <div id="category-list-container">
+                                        <h3 id="name">Category List</h3>
+                                        <ul id="category-list"></ul>
+                                    </div>
+                                    <div id="company-list-container">
+                                        <h3 id="name1">Company List</h3>
+                                        <ul id="company-list"></ul>
+                                    </div>
+                                </div>
                             </div>
                             <div class="border-input">
                                 <span class="location-span">
@@ -98,7 +109,6 @@
                             </button>
                             <div class="mega-menu-categories">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-
                             </div>
                         </li>
                     </ul>
