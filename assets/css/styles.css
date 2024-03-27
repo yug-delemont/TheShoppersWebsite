@@ -521,7 +521,7 @@ section.popular-sec a.white-btn {
 /*********************  About *******************/
 /*********************  About Hero *******************/
 section.about-hero-sec {
-    height: 96vh !important;
+    height: 126vh !important;
 }
 
 h1.about-head {
@@ -592,10 +592,10 @@ p.no-more-para {
 }
 
 section.advertising-shoppers {
-    padding-top: 22rem;
+    padding-top: 7.18rem;
 }
 
-.advertise-with-us-sec::after {
+/* .advertise-with-us-sec::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -604,7 +604,7 @@ section.advertising-shoppers {
     background-size: cover;
     background-position: bottom;
     bottom: -20rem;
-}
+} */
 
 .advertising-grid-inner {
     display: flex;
@@ -622,7 +622,7 @@ section.advertising-shoppers {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 80%;
     width: 100%;
     position: relative;
 }
