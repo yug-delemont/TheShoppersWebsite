@@ -27,6 +27,90 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container mx-auto">
+                <div class="main-header">
+                    <a class="navbar-brand" href="./index.html"><img src="./assets/images/svg/h_logo.svg"
+                            alt="logo" /></a>
+                    <button class="navbar-toggler hidden" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <div class="plate plate4" onclick="this.classList.toggle('active')">
+                                <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                                    <path class="line line1" d="M 50,35 H 30" />
+                                    <path class="line line2" d="M 50,35 H 70" />
+                                    <path class="line line3" d="M 50,50 H 30" />
+                                    <path class="line line4" d="M 50,50 H 70" />
+                                    <path class="line line5" d="M 50,65 H 30" />
+                                    <path class="line line6" d="M 50,65 H 70" />
+                                </svg>
+                                <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                                    <path class="line" d="M 34,32 L 66,68" />
+                                    <path class="line" d="M 66,32 L 34,68" />
+                                </svg>
+                            </div>
+                        </span>
+                    </button>
+                    <div class="navbar-collapse" id="navbarNav">
+                        <div class="btns">
+                            <div class="border-input">
+                                <input class="px-3" type="text" placeholder="Search Category or Company" />
+                            </div>
+                            <div class="border-input">
+                                <span class="location-span">
+                                    <img src="./assets/images/svg/location.svg" alt="" />
+                                </span>
+                                <input type="text" placeholder="Search Location" />
+                            </div>
+                            <button class="search-btn">
+                                <img src="./assets/images/svg/search.svg" alt="" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header-link-main">
+            <div class="container mx-auto">
+                <div class="header-links">
+                    <div class="header-links-left">
+                        <a href="./index.html" class="nav-link active">Home</a>
+                        <a href="./about.html" class="nav-link">About</a>
+                        <a href="./advertise-with-us.html" class="nav-link">Advertise With Us</a>
+                        <a href="./pricing.html" class="nav-link">Pricing</a>
+                        <a href="./contact-us.html" class="nav-link">Contact Us</a>
+                    </div>
+                    <ul class="header-links-right">
+                        <li>
+                            <a href="#" class="white-btn white-button white-type1">
+                                <span class="white-btn-txt">
+                                    Discount Codes
+                                </span>
+                            </a>
+                        </li>
+                        <li class="relative mega-menu-li">
+                            <button id="mega-menu-btn" class="orange-btn orange-button orange-type1 ">
+                                <span class="orange-btn-txt">
+                                    More Popular Categories
+                                </span>
+                            </button>
+                            <div class="mega-menu-categories">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam veniam in placeat,
+                                officia dolorem tenetur rerum fugiat dignissimos minus asperiores qui magni excepturi
+                                delectus, ducimus quas distinctio est at accusantium repellendus quibusdam nihil quos
+                                earum voluptas. Dicta odit incidunt unde, voluptatibus sunt alias. Fugiat maiores
+                                facilis delectus! Voluptates, rerum eligendi?
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+    </header>
+
     <!-- Advertise With us sec -->
     <section class="advertise-with-us-sec about-hero-sec">
         <!-- <div class="bottom-bg h-full w-full"> -->
@@ -38,9 +122,9 @@
                         <span>With <span class="text-[#FF9900]">Us</span></span>
                     </h1>
                 </div>
-                <div class="advertise-img absolute right-0 bottom-0">
+                <!-- <div class="advertise-img absolute right-0 bottom-0">
                     <img src="./assets/images/png/advertise.png" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- </div> -->
